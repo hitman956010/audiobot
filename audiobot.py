@@ -107,7 +107,7 @@ def fetch_multiple_audios():
             generate_audio(i, text)
 
             # Random pause between 60 and 120 seconds
-            pause_duration = random.randint(60, 120)
+            pause_duration = random.randint(10, 30)
             print(f"Pausing for {pause_duration} seconds...\n")
             time.sleep(pause_duration)  # Pause before generating the next audio
 
